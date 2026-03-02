@@ -1,20 +1,26 @@
 from pathlib import Path
 import os
-try:
-    from decouple import config
-except ImportError:
-    def config(key, default=None, cast=None):
-        return os.environ.get(key, default)
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-# Security settings
-SECRET_KEY = config('SECRET_KEY', default='django-insecure-dev-key-for-local-development-only')
-DEBUG = config('DEBUG', default=True, cast=bool)
-ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='localhost,127.0.0.1').split(',')
+# Security settings - Vercel ready
+try:
+    from decouple import config
+    def get_env(key, default=None, cast=None):
+        if cast is bool:
+            return config(key, default=default, cast=cast)
+        else:
+            return config(key, default=default)
+except ImportError:
+    def get_env(key, default=None, cast=None):
+        return os.environ.get(key, default)
+
+SECRET_KEY = get_env('SECRET_KEY', default='django-insecure-dev-key-for-local-development-only')
+DEBUG = get_env('DEBUG', default=False, cast=bool)
+ALLOWED_HOSTS = get_env('ALLOWED_HOSTS', default='localhost,127.0.0.1').split(',')
 
 # CORS settings
-CORS_ALLOWED_ORIGINS = config('CORS_ALLOWED_ORIGINS', default='http://localhost:3000,http://127.0.0.1:3000').split(',')
+CORS_ALLOWED_ORIGINS = get_env('CORS_ALLOWED_ORIGINS', default='http://localhost:3000,http://127.0.0.1:3000').split(',')
 CORS_ALLOW_CREDENTIALS = True
 
 INSTALLED_APPS = [
@@ -63,7 +69,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'backend_project.wsgi.application'
 
 # Database configuration
-DATABASE_URL = config('DATABASE_URL', default='sqlite:///db.sqlite3')
+DATABASE_URL = get_env('DATABASE_URL', default='sqlite:///db.sqlite3')
 
 if DATABASE_URL.startswith('postgresql://'):
     import dj_database_url
