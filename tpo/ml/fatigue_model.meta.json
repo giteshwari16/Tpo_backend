@@ -1,0 +1,14 @@
+{
+  "features": [
+    "sleep_score",
+    "study_score",
+    "social_media_score",
+    "meals_score",
+    "productivity_score_clean"
+  ],
+  "target": "fatigue_level",
+  "trained_at": "2026-02-01T09:35:07.549359Z",
+  "metrics": {
+    "accuracy": 0.9411764705882353
+  }
+}

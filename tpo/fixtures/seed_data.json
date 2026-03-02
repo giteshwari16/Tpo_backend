@@ -1,0 +1,37 @@
+[
+  {"model":"tpo.prepmaterial","pk":1,"fields":{"title":"Percentages Basics","content":"Compute percentage increase/decrease and compound changes.","category":"aptitude"}},
+  {"model":"tpo.prepmaterial","pk":2,"fields":{"title":"Time & Work","content":"Work-rate problems with persons and pipes.","category":"aptitude"}},
+  {"model":"tpo.prepmaterial","pk":3,"fields":{"title":"Ratios & Proportion","content":"Solving ratio mixes and distributions.","category":"aptitude"}},
+  {"model":"tpo.prepmaterial","pk":4,"fields":{"title":"Averages & Alligation","content":"Weighted averages, mixture, and alligation rule.","category":"aptitude"}},
+  {"model":"tpo.prepmaterial","pk":5,"fields":{"title":"Profit & Loss","content":"Marked price, discount, successive changes.","category":"aptitude"}},
+  {"model":"tpo.prepmaterial","pk":6,"fields":{"title":"Simple & Compound Interest","content":"Interest calculations and compounding periods.","category":"aptitude"}},
+
+  {"model":"tpo.prepmaterial","pk":7,"fields":{"title":"DBMS Normalization","content":"1NF to BCNF with examples.","category":"dbms"}},
+  {"model":"tpo.prepmaterial","pk":8,"fields":{"title":"SQL Joins","content":"INNER, LEFT, RIGHT, FULL joins and use-cases.","category":"dbms"}},
+  {"model":"tpo.prepmaterial","pk":9,"fields":{"title":"Transactions & ACID","content":"Atomicity, Consistency, Isolation, Durability.","category":"dbms"}},
+  {"model":"tpo.prepmaterial","pk":10,"fields":{"title":"Indexes & Performance","content":"B-Tree vs Hash, index selectivity, EXPLAIN.","category":"dbms"}},
+
+  {"model":"tpo.prepmaterial","pk":11,"fields":{"title":"OS Scheduling","content":"FCFS, SJF, RR, Priority with Gantt charts.","category":"os"}},
+  {"model":"tpo.prepmaterial","pk":12,"fields":{"title":"Memory Management","content":"Paging, Segmentation, Page replacement.","category":"os"}},
+  {"model":"tpo.prepmaterial","pk":13,"fields":{"title":"Concurrency","content":"Deadlocks, semaphores, monitors.","category":"os"}},
+  {"model":"tpo.prepmaterial","pk":14,"fields":{"title":"File Systems","content":"Inodes, journaling, ext4 vs NTFS.","category":"os"}},
+
+  {"model":"tpo.prepmaterial","pk":15,"fields":{"title":"OSI vs TCP/IP","content":"Layers, responsibilities, encapsulation.","category":"cn"}},
+  {"model":"tpo.prepmaterial","pk":16,"fields":{"title":"Routing Basics","content":"Distance vector vs link state, metrics.","category":"cn"}},
+  {"model":"tpo.prepmaterial","pk":17,"fields":{"title":"HTTP Essentials","content":"Methods, status codes, headers, caching.","category":"cn"}},
+  {"model":"tpo.prepmaterial","pk":18,"fields":{"title":"Network Security Basics","content":"TLS, certificates, common attacks.","category":"cn"}},
+
+  {"model":"tpo.prepmaterial","pk":19,"fields":{"title":"Arrays Patterns","content":"Two pointers, sliding window, Kadane.","category":"coding"}},
+  {"model":"tpo.prepmaterial","pk":20,"fields":{"title":"Linked Lists","content":"Reversal, cycle detection (Floyd), merge.","category":"coding"}},
+  {"model":"tpo.prepmaterial","pk":21,"fields":{"title":"Stacks & Queues","content":"Monotonic stack, queue with stacks.","category":"coding"}},
+  {"model":"tpo.prepmaterial","pk":22,"fields":{"title":"Trees & BST","content":"Traversal, diameter, LCA, BST ops.","category":"coding"}},
+  {"model":"tpo.prepmaterial","pk":23,"fields":{"title":"Graphs Essentials","content":"BFS, DFS, Dijkstra, Toposort.","category":"coding"}},
+  {"model":"tpo.prepmaterial","pk":24,"fields":{"title":"Dynamic Programming","content":"Knapsack, LIS, classic DP states.","category":"coding"}},
+
+  {"model":"tpo.prepmaterial","pk":25,"fields":{"title":"Aptitude Practice Set 1","content":"Mixed quant problems with solutions.","category":"aptitude"}},
+  {"model":"tpo.prepmaterial","pk":26,"fields":{"title":"Aptitude Practice Set 2","content":"Reasoning and verbal practice.","category":"aptitude"}},
+  {"model":"tpo.prepmaterial","pk":27,"fields":{"title":"SQL Practice Sheet","content":"20 SQL questions with answers.","category":"dbms"}},
+  {"model":"tpo.prepmaterial","pk":28,"fields":{"title":"OS Practice Sheet","content":"15 OS questions with answers.","category":"os"}},
+  {"model":"tpo.prepmaterial","pk":29,"fields":{"title":"CN Practice Sheet","content":"20 CN questions with answers.","category":"cn"}},
+  {"model":"tpo.prepmaterial","pk":30,"fields":{"title":"Coding Practice Sheet","content":"25 coding MCQs and 5 short problems.","category":"coding"}}
+]

@@ -1,0 +1,201 @@
+age,sleep_hours,study_hours,social_media_hours,meals_on_time,sleep_score,study_score,social_media_score,meals_score,productivity_score_clean,fatigue_level
+15–20,5–7 hours,4–6 hours,1–3 hours,Sometimes,6,5,2.0,2,5,High Fatigue
+15–20,7–9 hours,2–4 hours,Less than 1 hour,Sometimes,8,3,0.5,2,1,Low Fatigue
+15–20,Less than 5 hours,2–4 hours,3–5 hours,Sometimes,4,3,4.0,2,2,High Fatigue
+15–20,More than 9 hours,2–4 hours,More than 5 hours,Sometimes,10,3,6.0,2,3,Low Fatigue
+21–25,5–7 hours,Less than 2 hours,1–3 hours,Always,6,1,2.0,3,3,Low Fatigue
+15–20,Less than 5 hours,2–4 hours,1–3 hours,Always,4,3,2.0,3,3,High Fatigue
+21–25,5–7 hours,More than 6 hours,1–3 hours,Always,6,7,2.0,3,4,High Fatigue
+15–20,5–7 hours,4–6 hours,3–5 hours,Sometimes,6,5,4.0,2,5,High Fatigue
+15–20,Less than 5 hours,Less than 2 hours,Less than 1 hour,Sometimes,4,1,0.5,2,5,Medium Fatigue
+21–25,5–7 hours,Less than 2 hours,3–5 hours,Sometimes,6,1,4.0,2,2,Low Fatigue
+21–25,5–7 hours,Less than 2 hours,1–3 hours,Sometimes,6,1,2.0,2,5,Low Fatigue
+30+,7–9 hours,4–6 hours,Less than 1 hour,Always,8,5,0.5,3,4,Low Fatigue
+15–20,7–9 hours,4–6 hours,More than 5 hours,Always,8,5,6.0,3,5,High Fatigue
+21–25,7–9 hours,2–4 hours,1–3 hours,Always,8,3,2.0,3,5,Low Fatigue
+15–20,5–7 hours,2–4 hours,1–3 hours,Sometimes,6,3,2.0,2,4,Medium Fatigue
+21–25,7–9 hours,Less than 2 hours,More than 5 hours,Always,8,1,6.0,3,5,Low Fatigue
+15–20,5–7 hours,2–4 hours,1–3 hours,Always,6,3,2.0,3,5,Medium Fatigue
+15–20,7–9 hours,2–4 hours,1–3 hours,Always,8,3,2.0,3,3,Low Fatigue
+21–25,5–7 hours,2–4 hours,More than 5 hours,Sometimes,6,3,6.0,2,5,High Fatigue
+21–25,7–9 hours,Less than 2 hours,3–5 hours,Sometimes,8,1,4.0,2,5,Low Fatigue
+15–20,Less than 5 hours,2–4 hours,1–3 hours,Sometimes,4,3,2.0,2,4,High Fatigue
+15–20,7–9 hours,Less than 2 hours,More than 5 hours,Never,8,1,6.0,0,1,Low Fatigue
+15–20,7–9 hours,4–6 hours,3–5 hours,Sometimes,8,5,4.0,2,5,High Fatigue
+21–25,5–7 hours,Less than 2 hours,1–3 hours,Rarely,6,1,2.0,1,3,Low Fatigue
+15–20,7–9 hours,2–4 hours,1–3 hours,Sometimes,8,3,2.0,2,5,Low Fatigue
+21–25,5–7 hours,2–4 hours,1–3 hours,Always,6,3,2.0,3,4,Medium Fatigue
+15–20,Less than 5 hours,2–4 hours,1–3 hours,Sometimes,4,3,2.0,2,4,High Fatigue
+15–20,7–9 hours,4–6 hours,1–3 hours,Always,8,5,2.0,3,4,Medium Fatigue
+15–20,5–7 hours,4–6 hours,3–5 hours,Rarely,6,5,4.0,1,3,High Fatigue
+15–20,5–7 hours,Less than 2 hours,1–3 hours,Sometimes,6,1,2.0,2,1,Low Fatigue
+15–20,5–7 hours,2–4 hours,3–5 hours,Always,6,3,4.0,3,3,Medium Fatigue
+15–20,5–7 hours,2–4 hours,1–3 hours,Always,6,3,2.0,3,3,Medium Fatigue
+21–25,5–7 hours,Less than 2 hours,1–3 hours,Never,6,1,2.0,0,3,Low Fatigue
+15–20,7–9 hours,2–4 hours,1–3 hours,Sometimes,8,3,2.0,2,1,Low Fatigue
+15–20,5–7 hours,4–6 hours,1–3 hours,Sometimes,6,5,2.0,2,5,High Fatigue
+15–20,5–7 hours,2–4 hours,3–5 hours,Sometimes,6,3,4.0,2,2,High Fatigue
+15–20,7–9 hours,Less than 2 hours,3–5 hours,Rarely,8,1,4.0,1,3,Low Fatigue
+15–20,5–7 hours,2–4 hours,Less than 1 hour,Always,6,3,0.5,3,5,Low Fatigue
+21–25,7–9 hours,2–4 hours,1–3 hours,Always,8,3,2.0,3,5,Low Fatigue
+15–20,5–7 hours,2–4 hours,1–3 hours,Sometimes,6,3,2.0,2,5,Medium Fatigue
+15–20,More than 9 hours,Less than 2 hours,3–5 hours,Sometimes,10,1,4.0,2,2,Low Fatigue
+15–20,5–7 hours,Less than 2 hours,Less than 1 hour,Never,6,1,0.5,0,3,Low Fatigue
+15–20,7–9 hours,2–4 hours,1–3 hours,Sometimes,8,3,2.0,2,3,Low Fatigue
+15–20,7–9 hours,Less than 2 hours,1–3 hours,Sometimes,8,1,2.0,2,3,Low Fatigue
+15–20,5–7 hours,4–6 hours,Less than 1 hour,Sometimes,6,5,0.5,2,5,High Fatigue
+21–25,7–9 hours,2–4 hours,1–3 hours,Sometimes,8,3,2.0,2,5,Low Fatigue
+15–20,5–7 hours,2–4 hours,3–5 hours,Sometimes,6,3,4.0,2,4,High Fatigue
+15–20,7–9 hours,2–4 hours,1–3 hours,Never,8,3,2.0,0,5,Low Fatigue
+15–20,More than 9 hours,Less than 2 hours,1–3 hours,Always,10,1,2.0,3,3,Low Fatigue
+15–20,7–9 hours,2–4 hours,1–3 hours,Always,8,3,2.0,3,5,Low Fatigue
+21–25,7–9 hours,2–4 hours,3–5 hours,Sometimes,8,3,4.0,2,1,Low Fatigue
+15–20,7–9 hours,Less than 2 hours,Less than 1 hour,Rarely,8,1,0.5,1,3,Low Fatigue
+15–20,5–7 hours,Less than 2 hours,1–3 hours,Never,6,1,2.0,0,5,Low Fatigue
+15–20,5–7 hours,2–4 hours,1–3 hours,Sometimes,6,3,2.0,2,3,Medium Fatigue
+15–20,5–7 hours,2–4 hours,3–5 hours,Sometimes,6,3,4.0,2,1,High Fatigue
+15–20,5–7 hours,2–4 hours,1–3 hours,Always,6,3,2.0,3,5,Medium Fatigue
+15–20,7–9 hours,2–4 hours,1–3 hours,Always,8,3,2.0,3,5,Low Fatigue
+21–25,Less than 5 hours,2–4 hours,1–3 hours,Always,4,3,2.0,3,4,High Fatigue
+15–20,Less than 5 hours,Less than 2 hours,1–3 hours,Always,4,1,2.0,3,3,Medium Fatigue
+21–25,5–7 hours,2–4 hours,3–5 hours,Always,6,3,4.0,3,3,Medium Fatigue
+15–20,5–7 hours,2–4 hours,1–3 hours,Sometimes,6,3,2.0,2,1,Medium Fatigue
+15–20,5–7 hours,Less than 2 hours,1–3 hours,Sometimes,6,1,2.0,2,5,Low Fatigue
+15–20,5–7 hours,Less than 2 hours,1–3 hours,Always,6,1,2.0,3,4,Low Fatigue
+21–25,5–7 hours,2–4 hours,Less than 1 hour,Sometimes,6,3,0.5,2,2,Medium Fatigue
+21–25,5–7 hours,2–4 hours,3–5 hours,Always,6,3,4.0,3,1,Medium Fatigue
+21–25,5–7 hours,2–4 hours,3–5 hours,Always,6,3,4.0,3,3,Medium Fatigue
+21–25,5–7 hours,2–4 hours,1–3 hours,Rarely,6,3,2.0,1,4,Medium Fatigue
+15–20,5–7 hours,Less than 2 hours,1–3 hours,Sometimes,6,1,2.0,2,5,Low Fatigue
+15–20,Less than 5 hours,2–4 hours,Less than 1 hour,Rarely,4,3,0.5,1,3,High Fatigue
+15–20,5–7 hours,2–4 hours,3–5 hours,Sometimes,6,3,4.0,2,1,High Fatigue
+30+,5–7 hours,More than 6 hours,Less than 1 hour,Never,6,7,0.5,0,3,High Fatigue
+21–25,5–7 hours,2–4 hours,1–3 hours,Always,6,3,2.0,3,5,Medium Fatigue
+21–25,7–9 hours,2–4 hours,3–5 hours,Sometimes,8,3,4.0,2,3,Low Fatigue
+15–20,Less than 5 hours,2–4 hours,1–3 hours,Rarely,4,3,2.0,1,4,High Fatigue
+21–25,5–7 hours,More than 6 hours,More than 5 hours,Sometimes,6,7,6.0,2,5,High Fatigue
+15–20,7–9 hours,More than 6 hours,3–5 hours,Always,8,7,4.0,3,5,High Fatigue
+15–20,5–7 hours,4–6 hours,1–3 hours,Always,6,5,2.0,3,1,High Fatigue
+21–25,Less than 5 hours,4–6 hours,1–3 hours,Sometimes,4,5,2.0,2,4,High Fatigue
+15–20,5–7 hours,2–4 hours,Less than 1 hour,Sometimes,6,3,0.5,2,3,Medium Fatigue
+15–20,5–7 hours,2–4 hours,3–5 hours,Sometimes,6,3,4.0,2,3,High Fatigue
+15–20,5–7 hours,Less than 2 hours,Less than 1 hour,Always,6,1,0.5,3,4,Low Fatigue
+15–20,7–9 hours,Less than 2 hours,1–3 hours,Sometimes,8,1,2.0,2,5,Low Fatigue
+21–25,5–7 hours,2–4 hours,3–5 hours,Never,6,3,4.0,0,5,High Fatigue
+15–20,7–9 hours,More than 6 hours,Less than 1 hour,Always,8,7,0.5,3,1,High Fatigue
+15–20,5–7 hours,4–6 hours,1–3 hours,Always,6,5,2.0,3,1,High Fatigue
+21–25,Less than 5 hours,2–4 hours,Less than 1 hour,Never,4,3,0.5,0,5,High Fatigue
+21–25,7–9 hours,2–4 hours,1–3 hours,Sometimes,8,3,2.0,2,1,Low Fatigue
+15–20,5–7 hours,2–4 hours,3–5 hours,Sometimes,6,3,4.0,2,5,High Fatigue
+15–20,5–7 hours,2–4 hours,1–3 hours,Rarely,6,3,2.0,1,1,Medium Fatigue
+21–25,5–7 hours,2–4 hours,Less than 1 hour,Sometimes,6,3,0.5,2,1,Medium Fatigue
+15–20,5–7 hours,Less than 2 hours,Less than 1 hour,Sometimes,6,1,0.5,2,5,Low Fatigue
+15–20,7–9 hours,4–6 hours,1–3 hours,Sometimes,8,5,2.0,2,3,Medium Fatigue
+15–20,7–9 hours,2–4 hours,More than 5 hours,Sometimes,8,3,6.0,2,3,Medium Fatigue
+15–20,Less than 5 hours,Less than 2 hours,1–3 hours,Always,4,1,2.0,3,5,Medium Fatigue
+15–20,7–9 hours,2–4 hours,1–3 hours,Sometimes,8,3,2.0,2,1,Low Fatigue
+21–25,Less than 5 hours,2–4 hours,Less than 1 hour,Sometimes,4,3,0.5,2,5,High Fatigue
+15–20,5–7 hours,Less than 2 hours,1–3 hours,Rarely,6,1,2.0,1,5,Low Fatigue
+15–20,5–7 hours,Less than 2 hours,More than 5 hours,Never,6,1,6.0,0,5,High Fatigue
+15–20,5–7 hours,2–4 hours,3–5 hours,Always,6,3,4.0,3,1,Medium Fatigue
+15–20,7–9 hours,2–4 hours,1–3 hours,Always,8,3,2.0,3,4,Low Fatigue
+15–20,5–7 hours,Less than 2 hours,3–5 hours,Rarely,6,1,4.0,1,5,Medium Fatigue
+15–20,5–7 hours,Less than 2 hours,1–3 hours,Sometimes,6,1,2.0,2,3,Low Fatigue
+15–20,5–7 hours,4–6 hours,3–5 hours,Always,6,5,4.0,3,3,High Fatigue
+15–20,5–7 hours,2–4 hours,1–3 hours,Always,6,3,2.0,3,3,Medium Fatigue
+15–20,7–9 hours,4–6 hours,3–5 hours,Always,8,5,4.0,3,4,Medium Fatigue
+15–20,7–9 hours,4–6 hours,3–5 hours,Rarely,8,5,4.0,1,5,High Fatigue
+21–25,5–7 hours,More than 6 hours,3–5 hours,Sometimes,6,7,4.0,2,5,High Fatigue
+15–20,5–7 hours,Less than 2 hours,3–5 hours,Sometimes,6,1,4.0,2,5,Low Fatigue
+15–20,5–7 hours,2–4 hours,1–3 hours,Sometimes,6,3,2.0,2,2,Medium Fatigue
+15–20,7–9 hours,Less than 2 hours,1–3 hours,Sometimes,8,1,2.0,2,4,Low Fatigue
+15–20,Less than 5 hours,4–6 hours,Less than 1 hour,Rarely,4,5,0.5,1,2,High Fatigue
+21–25,7–9 hours,Less than 2 hours,1–3 hours,Sometimes,8,1,2.0,2,5,Low Fatigue
+15–20,7–9 hours,2–4 hours,1–3 hours,Always,8,3,2.0,3,3,Low Fatigue
+21–25,5–7 hours,2–4 hours,1–3 hours,Rarely,6,3,2.0,1,5,Medium Fatigue
+15–20,5–7 hours,Less than 2 hours,More than 5 hours,Always,6,1,6.0,3,3,Medium Fatigue
+15–20,5–7 hours,Less than 2 hours,1–3 hours,Sometimes,6,1,2.0,2,5,Low Fatigue
+15–20,7–9 hours,2–4 hours,Less than 1 hour,Never,8,3,0.5,0,1,Low Fatigue
+15–20,5–7 hours,4–6 hours,1–3 hours,Sometimes,6,5,2.0,2,5,High Fatigue
+15–20,5–7 hours,2–4 hours,Less than 1 hour,Sometimes,6,3,0.5,2,5,Medium Fatigue
+15–20,5–7 hours,2–4 hours,1–3 hours,Sometimes,6,3,2.0,2,3,Medium Fatigue
+15–20,7–9 hours,2–4 hours,More than 5 hours,Sometimes,8,3,6.0,2,3,Medium Fatigue
+15–20,Less than 5 hours,2–4 hours,1–3 hours,Always,4,3,2.0,3,4,High Fatigue
+15–20,5–7 hours,2–4 hours,1–3 hours,Sometimes,6,3,2.0,2,1,Medium Fatigue
+15–20,7–9 hours,2–4 hours,1–3 hours,Sometimes,8,3,2.0,2,4,Low Fatigue
+21–25,7–9 hours,2–4 hours,Less than 1 hour,Sometimes,8,3,0.5,2,3,Low Fatigue
+21–25,5–7 hours,2–4 hours,1–3 hours,Sometimes,6,3,2.0,2,5,Medium Fatigue
+15–20,5–7 hours,4–6 hours,1–3 hours,Rarely,6,5,2.0,1,4,High Fatigue
+15–20,More than 9 hours,2–4 hours,Less than 1 hour,Always,10,3,0.5,3,5,Low Fatigue
+15–20,5–7 hours,Less than 2 hours,More than 5 hours,Never,6,1,6.0,0,5,High Fatigue
+15–20,5–7 hours,4–6 hours,1–3 hours,Always,6,5,2.0,3,3,High Fatigue
+15–20,Less than 5 hours,Less than 2 hours,3–5 hours,Rarely,4,1,4.0,1,5,High Fatigue
+15–20,5–7 hours,More than 6 hours,1–3 hours,Sometimes,6,7,2.0,2,4,High Fatigue
+15–20,Less than 5 hours,More than 6 hours,3–5 hours,Sometimes,4,7,4.0,2,5,High Fatigue
+15–20,7–9 hours,4–6 hours,1–3 hours,Rarely,8,5,2.0,1,2,Medium Fatigue
+15–20,5–7 hours,More than 6 hours,Less than 1 hour,Sometimes,6,7,0.5,2,5,High Fatigue
+21–25,7–9 hours,Less than 2 hours,1–3 hours,Always,8,1,2.0,3,3,Low Fatigue
+15–20,Less than 5 hours,4–6 hours,Less than 1 hour,Sometimes,4,5,0.5,2,4,High Fatigue
+15–20,7–9 hours,2–4 hours,1–3 hours,Sometimes,8,3,2.0,2,3,Low Fatigue
+15–20,Less than 5 hours,2–4 hours,1–3 hours,Rarely,4,3,2.0,1,4,High Fatigue
+15–20,5–7 hours,2–4 hours,1–3 hours,Always,6,3,2.0,3,5,Medium Fatigue
+15–20,Less than 5 hours,Less than 2 hours,1–3 hours,Sometimes,4,1,2.0,2,3,Medium Fatigue
+15–20,Less than 5 hours,4–6 hours,Less than 1 hour,Rarely,4,5,0.5,1,4,High Fatigue
+15–20,5–7 hours,4–6 hours,1–3 hours,Sometimes,6,5,2.0,2,5,High Fatigue
+15–20,5–7 hours,4–6 hours,1–3 hours,Sometimes,6,5,2.0,2,1,High Fatigue
+21–25,7–9 hours,Less than 2 hours,1–3 hours,Always,8,1,2.0,3,5,Low Fatigue
+15–20,Less than 5 hours,2–4 hours,1–3 hours,Rarely,4,3,2.0,1,3,High Fatigue
+15–20,5–7 hours,2–4 hours,3–5 hours,Rarely,6,3,4.0,1,5,High Fatigue
+15–20,7–9 hours,Less than 2 hours,3–5 hours,Always,8,1,4.0,3,1,Low Fatigue
+15–20,7–9 hours,Less than 2 hours,1–3 hours,Sometimes,8,1,2.0,2,3,Low Fatigue
+15–20,5–7 hours,2–4 hours,1–3 hours,Always,6,3,2.0,3,3,Medium Fatigue
+15–20,5–7 hours,2–4 hours,Less than 1 hour,Sometimes,6,3,0.5,2,3,Medium Fatigue
+15–20,7–9 hours,4–6 hours,1–3 hours,Always,8,5,2.0,3,5,Medium Fatigue
+15–20,5–7 hours,2–4 hours,1–3 hours,Sometimes,6,3,2.0,2,3,Medium Fatigue
+15–20,5–7 hours,2–4 hours,Less than 1 hour,Sometimes,6,3,0.5,2,1,Medium Fatigue
+21–25,7–9 hours,2–4 hours,More than 5 hours,Sometimes,8,3,6.0,2,4,Medium Fatigue
+15–20,7–9 hours,4–6 hours,1–3 hours,Sometimes,8,5,2.0,2,4,Medium Fatigue
+15–20,5–7 hours,2–4 hours,1–3 hours,Always,6,3,2.0,3,3,Medium Fatigue
+21–25,Less than 5 hours,Less than 2 hours,More than 5 hours,Never,4,1,6.0,0,5,High Fatigue
+15–20,5–7 hours,2–4 hours,1–3 hours,Sometimes,6,3,2.0,2,1,Medium Fatigue
+21–25,5–7 hours,4–6 hours,1–3 hours,Sometimes,6,5,2.0,2,1,High Fatigue
+21–25,7–9 hours,2–4 hours,1–3 hours,Never,8,3,2.0,0,3,Low Fatigue
+15–20,5–7 hours,2–4 hours,1–3 hours,Sometimes,6,3,2.0,2,5,Medium Fatigue
+15–20,5–7 hours,2–4 hours,1–3 hours,Sometimes,6,3,2.0,2,3,Medium Fatigue
+15–20,5–7 hours,Less than 2 hours,1–3 hours,Sometimes,6,1,2.0,2,4,Low Fatigue
+15–20,7–9 hours,2–4 hours,1–3 hours,Always,8,3,2.0,3,5,Low Fatigue
+15–20,7–9 hours,2–4 hours,3–5 hours,Sometimes,8,3,4.0,2,3,Low Fatigue
+15–20,5–7 hours,Less than 2 hours,More than 5 hours,Always,6,1,6.0,3,3,Medium Fatigue
+15–20,5–7 hours,Less than 2 hours,1–3 hours,Always,6,1,2.0,3,4,Low Fatigue
+15–20,5–7 hours,2–4 hours,Less than 1 hour,Sometimes,6,3,0.5,2,5,Medium Fatigue
+15–20,5–7 hours,2–4 hours,1–3 hours,Always,6,3,2.0,3,4,Medium Fatigue
+21–25,5–7 hours,2–4 hours,1–3 hours,Sometimes,6,3,2.0,2,3,Medium Fatigue
+15–20,5–7 hours,Less than 2 hours,3–5 hours,Sometimes,6,1,4.0,2,2,Low Fatigue
+15–20,7–9 hours,2–4 hours,1–3 hours,Sometimes,8,3,2.0,2,3,Low Fatigue
+15–20,5–7 hours,2–4 hours,3–5 hours,Always,6,3,4.0,3,1,Medium Fatigue
+15–20,5–7 hours,2–4 hours,1–3 hours,Sometimes,6,3,2.0,2,5,Medium Fatigue
+15–20,5–7 hours,Less than 2 hours,More than 5 hours,Rarely,6,1,6.0,1,1,Medium Fatigue
+15–20,7–9 hours,2–4 hours,Less than 1 hour,Sometimes,8,3,0.5,2,3,Low Fatigue
+15–20,7–9 hours,2–4 hours,3–5 hours,Always,8,3,4.0,3,5,Low Fatigue
+15–20,Less than 5 hours,Less than 2 hours,Less than 1 hour,Sometimes,4,1,0.5,2,1,Medium Fatigue
+15–20,5–7 hours,2–4 hours,1–3 hours,Sometimes,6,3,2.0,2,3,Medium Fatigue
+21–25,7–9 hours,2–4 hours,Less than 1 hour,Sometimes,8,3,0.5,2,3,Low Fatigue
+15–20,5–7 hours,2–4 hours,3–5 hours,Sometimes,6,3,4.0,2,1,High Fatigue
+15–20,5–7 hours,2–4 hours,1–3 hours,Always,6,3,2.0,3,5,Medium Fatigue
+21–25,5–7 hours,Less than 2 hours,More than 5 hours,Sometimes,6,1,6.0,2,5,Medium Fatigue
+15–20,5–7 hours,Less than 2 hours,1–3 hours,Sometimes,6,1,2.0,2,4,Low Fatigue
+15–20,7–9 hours,4–6 hours,1–3 hours,Sometimes,8,5,2.0,2,4,Medium Fatigue
+21–25,5–7 hours,2–4 hours,1–3 hours,Sometimes,6,3,2.0,2,5,Medium Fatigue
+15–20,5–7 hours,Less than 2 hours,Less than 1 hour,Sometimes,6,1,0.5,2,5,Low Fatigue
+15–20,5–7 hours,4–6 hours,1–3 hours,Sometimes,6,5,2.0,2,3,High Fatigue
+15–20,5–7 hours,2–4 hours,1–3 hours,Always,6,3,2.0,3,1,Medium Fatigue
+15–20,5–7 hours,More than 6 hours,1–3 hours,Sometimes,6,7,2.0,2,4,High Fatigue
+21–25,5–7 hours,2–4 hours,1–3 hours,Sometimes,6,3,2.0,2,1,Medium Fatigue
+21–25,5–7 hours,4–6 hours,1–3 hours,Always,6,5,2.0,3,5,High Fatigue
+21–25,7–9 hours,Less than 2 hours,1–3 hours,Sometimes,8,1,2.0,2,4,Low Fatigue
+21–25,Less than 5 hours,Less than 2 hours,3–5 hours,Sometimes,4,1,4.0,2,1,High Fatigue
+15–20,7–9 hours,2–4 hours,1–3 hours,Sometimes,8,3,2.0,2,3,Low Fatigue
+15–20,Less than 5 hours,2–4 hours,1–3 hours,Sometimes,4,3,2.0,2,5,High Fatigue
+21–25,5–7 hours,Less than 2 hours,1–3 hours,Sometimes,6,1,2.0,2,5,Low Fatigue
+15–20,7–9 hours,Less than 2 hours,1–3 hours,Sometimes,8,1,2.0,2,1,Low Fatigue
+15–20,5–7 hours,2–4 hours,1–3 hours,Sometimes,6,3,2.0,2,4,Medium Fatigue

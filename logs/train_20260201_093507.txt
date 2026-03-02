@@ -1,0 +1,13 @@
+Model saved to: C:\Users\gitpp\CascadeProjects\windsurf-project-2\backend\tpo\ml\fatigue_model.joblib
+Meta saved to: C:\Users\gitpp\CascadeProjects\windsurf-project-2\backend\tpo\ml\fatigue_model.meta.json
+Accuracy: 94.12%
+
+                precision    recall  f1-score   support
+
+  High Fatigue       0.93      0.88      0.90        16
+   Low Fatigue       1.00      1.00      1.00        18
+Medium Fatigue       0.89      0.94      0.91        17
+
+      accuracy                           0.94        51
+     macro avg       0.94      0.94      0.94        51
+  weighted avg       0.94      0.94      0.94        51
