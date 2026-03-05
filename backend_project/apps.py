@@ -7,11 +7,7 @@ class BackendProjectConfig(AppConfig):
 
     def ready(self):
         """
-        Configure admin site branding when app is ready
+        Keep default Django admin appearance
         """
-        from django.contrib import admin
-        
-        # Customize admin site branding
-        admin.site.site_title = 'TPO Admin Panel'
-        admin.site.site_header = 'TPO Administration'
-        admin.site.index_title = 'Welcome to TPO Admin Portal'
+        # No custom admin configuration - keep Django default
+        pass
