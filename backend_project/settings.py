@@ -35,7 +35,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'tpo',
     'student',
-    'backend_project.admin_config',  # Custom admin configuration
+    'backend_project.apps.BackendProjectConfig',  # Custom admin configuration
 ]
 
 MIDDLEWARE = [
