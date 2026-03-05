@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'tpo',
     'student',
+    'backend_project.admin_config',  # Custom admin configuration
 ]
 
 MIDDLEWARE = [
@@ -101,11 +102,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # For Vercel deployment
 STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
-
-# Admin site configuration
-ADMIN_TITLE = 'TPO Admin Panel'
-ADMIN_HEADER = 'TPO Administration'
-ADMIN_INDEX_TITLE = 'Welcome to TPO Admin Portal'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 

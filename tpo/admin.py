@@ -1,23 +1,22 @@
 from django.contrib import admin
 from .models import User, StudentProfile, JobProfile, JobApplication, Training, TrainingRegistration, ResumeAnalysis, PrepMaterial, FatigueData
-from backend_project.admin import tpo_admin_site
 
 
-@tpo_admin_site.register(User)
+@admin.register(User)
 class UserAdmin(admin.ModelAdmin):
     list_display = ("email", "role", "is_active", "is_staff")
     search_fields = ("email",)
     list_filter = ("role", "is_active", "is_staff")
 
 
-@tpo_admin_site.register(StudentProfile)
+@admin.register(StudentProfile)
 class StudentProfileAdmin(admin.ModelAdmin):
     list_display = ("user", "branch", "cgpa", "placement_status")
     search_fields = ("user__email", "branch")
     list_filter = ("branch", "placement_status")
 
 
-@tpo_admin_site.register(JobProfile)
+@admin.register(JobProfile)
 class JobProfileAdmin(admin.ModelAdmin):
     list_display = ("company_name", "role", "category", "ctc", "eligibility", "location", "deadline", "is_active", "created_at")
     search_fields = ("company_name", "role", "location", "eligibility", "description")
@@ -48,7 +47,7 @@ class JobProfileAdmin(admin.ModelAdmin):
         return qs.order_by("-created_at")
 
 
-@tpo_admin_site.register(JobApplication)
+@admin.register(JobApplication)
 class JobApplicationAdmin(admin.ModelAdmin):
     list_display = ("user", "job", "status", "applied_at", "updated_at")
     search_fields = ("user__email", "job__company_name", "job__role")
@@ -78,7 +77,7 @@ class JobApplicationAdmin(admin.ModelAdmin):
         return qs.select_related('user', 'job').order_by("-applied_at")
 
 
-@tpo_admin_site.register(Training)
+@admin.register(Training)
 class TrainingAdmin(admin.ModelAdmin):
     list_display = ("title", "training_type", "instructor", "start_date", "end_date", "capacity", "registered_count", "is_active")
     search_fields = ("title", "instructor", "venue", "description")
@@ -115,7 +114,7 @@ class TrainingAdmin(admin.ModelAdmin):
         qs = super().get_queryset(request)
         return qs.prefetch_related('registrations').order_by("-start_date")
 
-@tpo_admin_site.register(TrainingRegistration)
+@admin.register(TrainingRegistration)
 class TrainingRegistrationAdmin(admin.ModelAdmin):
     list_display = ("user", "training", "status", "registered_at", "updated_at")
     search_fields = ("user__email", "training__title", "notes")
@@ -142,7 +141,7 @@ class TrainingRegistrationAdmin(admin.ModelAdmin):
         return qs.select_related('user', 'training').order_by("-registered_at")
 
 
-@tpo_admin_site.register(ResumeAnalysis)
+@admin.register(ResumeAnalysis)
 class ResumeAnalysisAdmin(admin.ModelAdmin):
     list_display = ("user", "overall_score", "grade", "ats_score", "analysis_date")
     search_fields = ("user__email", "strengths", "weaknesses", "key_skills_found")
@@ -177,7 +176,7 @@ class ResumeAnalysisAdmin(admin.ModelAdmin):
         return qs.select_related('user').order_by("-analysis_date")
 
 
-@tpo_admin_site.register(PrepMaterial)
+@admin.register(PrepMaterial)
 class PrepMaterialAdmin(admin.ModelAdmin):
     list_display = ("title", "category", "created_at")
     search_fields = ("title", "category")
@@ -185,7 +184,7 @@ class PrepMaterialAdmin(admin.ModelAdmin):
     ordering = ("-created_at",)
 
 
-@tpo_admin_site.register(FatigueData)
+@admin.register(FatigueData)
 class FatigueDataAdmin(admin.ModelAdmin):
     list_display = ("user", "study_hours", "sleep_duration", "breaks", "fatigue_score", "timestamp")
     search_fields = ("user__email",)
