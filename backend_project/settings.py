@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'tpo',
     'student',
+    'backend_project.apps.BackendProjectConfig',  # IMRD Admin branding
 ]
 
 MIDDLEWARE = [
@@ -121,9 +122,3 @@ CACHES = {
         'LOCATION': 'aptitude-cache',
     }
 }
-
-# Admin site configuration (at the end to avoid circular import)
-from django.contrib import admin
-admin.site.site_title = 'IMRD TPO Admin Panel'
-admin.site.site_header = 'IMRD Training & Placement Office'
-admin.site.index_title = 'Welcome to IMRD TPO Administration'
